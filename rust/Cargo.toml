@@ -1,0 +1,17 @@
+[package]
+name = "dodge-the-creeps"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MPL-2.0"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rand = "0.9.0"
+godot = { git = "https://github.com/godot-rust/gdext.git", branch = "master", features = ["experimental-wasm", "lazy-function-tables"]}
+
+
+
