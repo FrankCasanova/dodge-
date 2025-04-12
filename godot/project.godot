@@ -10,10 +10,11 @@ config_version=5
 
 [application]
 
-config/name="godot"
+config/name="Crazy Dodge!"
 run/main_scene="uid://8187mce4ujpf"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+boot_splash/image="uid://cdl01im0twwh0"
+config/icon="uid://cdl01im0twwh0"
 
 [display]
 

@@ -1,4 +1,4 @@
-use godot::classes::{Button, CanvasLayer, ICanvasLayer, Label, Timer};
+use godot::classes::{AudioStreamPlayer, Button, CanvasLayer, ICanvasLayer, Label, Timer};
 use godot::prelude::*;
 
 

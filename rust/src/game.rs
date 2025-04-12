@@ -1,6 +1,6 @@
 use crate::{mob, player, hud};
 
-use godot::classes::{Marker2D, PathFollow2D, RigidBody2D, Timer};
+use godot::classes::{AudioStreamPlayer, Marker2D, PathFollow2D, RigidBody2D, Timer};
 use godot::prelude::*;
 
 use rand::seq::IndexedMutRandom;

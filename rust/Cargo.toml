@@ -11,7 +11,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 rand = "0.9.0"
-godot = { git = "https://github.com/godot-rust/gdext.git", branch = "master", features = ["experimental-wasm", "lazy-function-tables"]}
+godot = { git = "https://github.com/godot-rust/gdext.git", branch = "master"}
 
 
 
